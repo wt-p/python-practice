@@ -1,12 +1,12 @@
 # 自分の回答
-# first_char = input("1つ目の文字列を入力してください >")
-# second_char = input("2つ目の文字列を入力してください >")
-# result = ""
-# for char in first_char:
-#     if char in second_char:
-#         result += char
-#
-# print(f"重複する文字列 : {result}")
+first_char = input("1つ目の文字列を入力してください >")
+second_char = input("2つ目の文字列を入力してください >")
+result = ""
+for char in first_char:
+    if char in second_char:
+        result += char
+
+print(f"重複する文字列 : {result}")
 
 # 回答
 word1 = input("1つ目の文字列を入力してください >")
