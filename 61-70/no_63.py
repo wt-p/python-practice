@@ -21,3 +21,7 @@ l2 = [3, 4, 5]
 
 print(f'l1はl2に含まれている : {set(l1).issubset(set(l2))}')
 print(f'l2はl1に含まれている : {set(l2).issubset(set(l1))}')
+
+# 他の部分集合の表し方
+print(f'l1はl2に含まれている : {set(l1) <= set(l2)}')
+print(f'l2はl1に含まれている : {set(l2) <= set(l1)}')
