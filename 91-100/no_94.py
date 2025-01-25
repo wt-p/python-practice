@@ -55,7 +55,7 @@ else:
     elif computer_hand == 1 and my_hand == 0:
         is_win = True
     elif computer_hand == 2 and my_hand == 1:
-        is_win =True
+        is_win = True
 
 if isinstance(is_win, bool):
     is_win = '勝ち' if is_win else '負け'
